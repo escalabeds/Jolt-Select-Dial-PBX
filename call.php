@@ -3,10 +3,10 @@ error_reporting(E_ALL);
 ini_set('display_errors', 1);
  
 $strUser = "2007"; #specify the asterisk manager username you want to login with
-$strSecret = ""; specify the password for the above user
+$strSecret = "*Uh&YG5$f5rf8IYTF*659ybiytc54s"; specify the password for the above user
 
 
-$strHost = "127.0.0.1";
+$strHost = "clearsound.krptelecom.com";
 //Clean up EXT
 $ext = $_GET['exten'];
 $ext = filter_var($ext, FILTER_SANITIZE_NUMBER_INT);
