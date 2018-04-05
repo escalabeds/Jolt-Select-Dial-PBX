@@ -2,8 +2,8 @@
 error_reporting(E_ALL);
 ini_set('display_errors', 1);
  
-$strUser = "user123"; #specify the asterisk manager username you want to login with
-$strSecret = "pass123"; #specify the password for the above user
+$strUser = "2007"; #specify the asterisk manager username you want to login with
+$strSecret = ""; specify the password for the above user
 
 
 $strHost = "127.0.0.1";
